@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>A.A. Primera Junta</title>
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+	<body>
+		<header>
+			
+			<div class="titulo">
+				<a href=""><img src="/image/logos/club-primera-junta-escudo.png"
+						alt="escudo club primera junta"></a>
+				<h1>Asociacion Atlético Primera Junta</h1>
+			</div>
+			<nav>
+				<ul>
+					<a href="./entrenamiento.html">
+						<li>Res. Entrenamiento</li>
+					</a>
+	
+					<a href="./index.html">
+						<li>Inicio</li>
+					</a>
+	
+					<a href="./ropa.html">
+						<li>Ropa</li>
+					</a>
+				</ul>
+			</nav>
+			
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<img src="/image/logos/chango-logo.png" alt="chango">
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">remera titular</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<img src="/image/logos/logo-x.png" alt="x">
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="/image/productos/remera-titular.jpg"
+						alt="remera titular" 
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Remera Titular</h2>
+					<p class="price">$7000</p>
+					<button class="btn-add-cart">Añadir</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/image/productos/remera-arquero.jpg"
+						alt="Remera arquero"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Remera arquero</h2>
+					<p class="price">$6500</p>
+					<button class="btn-add-cart">Añadir</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/image/productos/remera-homenaje.jpg"
+						alt="Remera homenaje"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Remera homenaje</h2>
+					<p class="price">$5000</p>
+					<button class="btn-add-cart">Añadir</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/image/productos/remera-de-juego.jpg"
+						alt="remera de juego"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Remera de juego</h2>
+					<p class="price">$5600</p>
+					<button class="btn-add-cart">Añadir</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>A.A. Primera Junta</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="titulo">
+            <a href="./index.html"><img src="/image/logos/club-primera-junta-escudo.png"
+                    alt="escudo club primera junta"></a>
+            <h1>Asociacion Atlético Primera Junta</h1>
+        </div>
+        <nav>
+            <ul>
+                <a href="./entrenamiento.html">
+                    <li>Res. Entrenamiento</li>
+                </a>
+
+                <a href="./index.html">
+                    <li>Inicio</li>
+                </a>
+
+                <a href="./ropa.html">
+                    <li>Ropa</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="entrena">
+            <form id="formulario" class="rendimiento">
+
+                <label for="nombreDelJugador">Pon tu nombre</label>
+                <input required type="text" id="nombreDelJugador">
+
+                <label for="entrenamiento1">Entrenamiento N°1</label>
+                <input required type="number" id="entrenamiento1" min="1" max="10">
+
+                <label for="entrenamiento2">Entrenamiento N°2</label>
+                <input required type="number" id="entrenamiento2" min="1" max="10">
+
+                <label for="entrenamiento1">Entrenamiento N°3</label>
+                <input required type="number" id="entrenamiento3" min="1" max="10">
+
+                <button class="submitform" id="submitForm" type="submit">Enviar</button>
+
+            </form>
+
+            <ul id="resultado" class="resultado__final">
+                <h1>Resultado</h1>
+            </ul>
+
+        </div>
+
+    </main>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
